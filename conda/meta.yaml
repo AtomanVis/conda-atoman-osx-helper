@@ -1,0 +1,19 @@
+package:
+  name: atoman-osx-helper
+  version: "0.1"
+
+source:
+  fn: v0.1.tar.gz
+  url: https://github.com/AtomanVis/atoman-osx-helper/archive/v0.1.tar.gz
+  sha1: 3cc2ef2529cc25893ef1bd0a0e4620b62ad38e7f
+
+build:
+  number: 0
+
+requirements:
+  build:
+   - cmake
+
+about:
+  home: https://github.com/AtomanVis/atoman-osx-helper
+  license: MIT
